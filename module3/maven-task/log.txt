@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building maven-task 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ci-training ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ci-training ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /opt/git/mnt-project/mtn-projects/module3/maven-task/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ci-training ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /opt/git/mnt-project/mtn-projects/module3/maven-task/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ci-training ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /opt/git/mnt-project/mtn-projects/module3/maven-task/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ci-training ---
+[INFO] Surefire report directory: /opt/git/mnt-project/mtn-projects/module3/maven-task/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.test.UnitTest
+test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ci-training ---
+[INFO] Building jar: /opt/git/mnt-project/mtn-projects/module3/maven-task/target/ci-training-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ ci-training ---
+[INFO] Installing /opt/git/mnt-project/mtn-projects/module3/maven-task/target/ci-training-1.0-SNAPSHOT.jar to /home/ilya_khamiakou/.m2/repository/com/mtn/training/ci-training/1.0-SNAPSHOT/ci-training-1.0-SNAPSHOT.jar
+[INFO] Installing /opt/git/mnt-project/mtn-projects/module3/maven-task/pom.xml to /home/ilya_khamiakou/.m2/repository/com/mtn/training/ci-training/1.0-SNAPSHOT/ci-training-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.007 s
+[INFO] Finished at: 2017-02-23T11:26:05+03:00
+[INFO] Final Memory: 17M/186M
+[INFO] ------------------------------------------------------------------------
