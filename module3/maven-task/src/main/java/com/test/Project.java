@@ -7,19 +7,10 @@ class Project {
 
   public static void test() {
     System.out.println("Test comment ilya1");
+	System.out.println("test comment ilya2");
   }
 
-  public static void test () {
-	System.out.println("Test comment ilya2");
-	}
-  public static void test () {
-        System.out.println("Test comment ilya3");
-        } 
-  public static void test () {
-        System.out.println("Test comment ilya4");
-        } 
-
-  public static void main(String[] args) {
+    public static void main(String[] args) {
     System.out.println("Hellow MTN");
   }
 
