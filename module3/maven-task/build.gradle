@@ -22,6 +22,6 @@ task archive( type: Zip) {
 }
 
 task copyzip( type: Copy) {
-        from 'build/distributions/project.zip'
+        from 'build/distributions/maven-task.zip'
         into '/tmp/share/'
 }
