@@ -13,3 +13,15 @@ task(hello) {
                 println "Hello world"
         }
 }
+task archive( type: Zip) {
+        from 'build'
+        println archive.archiveName
+        println relativePath(archive.destinationDir)
+        println relativePath(archive.archivePath)
+
+}
+
+task copyzip( type: Copy) {
+        from 'build/distributions/project.zip'
+        into '/tmp/share/'
+}
